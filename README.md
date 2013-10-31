@@ -1,4 +1,4 @@
 mlpm
 ====
 
-Machine Learning Principles and Methods
+Machine Learning Principles and Methods lab assignments
