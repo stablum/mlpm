@@ -1370,11 +1370,17 @@
      "prompt_number": 90
     },
     {
+     "cell_type": "markdown",
+     "metadata": {},
+     "source": [
+      "Get preprocessed data"
+     ]
+    },
+    {
      "cell_type": "code",
      "collapsed": false,
      "input": [
-      "\n",
-      "Xwhitened = getPreprocessedData(X)\n"
+      "Xwhitened = getPreprocessedData(X)"
      ],
      "language": "python",
      "metadata": {},
@@ -1408,6 +1414,13 @@
       }
      ],
      "prompt_number": 86
+    },
+    {
+     "cell_type": "markdown",
+     "metadata": {},
+     "source": [
+      "Run the ICA algorithm and get the approximated (recovered) sources back"
+     ]
     },
     {
      "cell_type": "code",
